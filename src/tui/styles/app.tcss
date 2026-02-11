@@ -1,0 +1,113 @@
+/* Main TUI Styles */
+
+Screen {
+    layout: vertical;
+    padding: 1;
+}
+
+/* Sidebar */
+#sidebar {
+    dock: left;
+    width: 25;
+    height: 100%;
+    background: $surface;
+    border-right: vkey $accent;
+    padding: 1;
+}
+
+#sidebar .title {
+    text-align: center;
+    color: $accent;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#sidebar Button {
+    width: 100%;
+    margin-bottom: 1;
+}
+
+#sidebar .subtitle {
+    text-align: center;
+    color: $secondary;
+    margin-top: 1;
+}
+
+/* Main Content */
+#content {
+    padding: 1;
+    height: 100%;
+}
+
+#banner {
+    color: $accent;
+    height: 11;
+    margin-bottom: 1;
+    content-align: center middle;
+}
+
+.title {
+    text-align: center;
+    text-style: bold;
+    color: $text;
+    margin-bottom: 1;
+}
+
+.subtitle {
+    text-align: center;
+    color: $secondary;
+    margin-bottom: 1;
+}
+
+/* Dashboard Stats */
+#dash-stats {
+    height: 10;
+    margin-bottom: 2;
+    align: center middle;
+}
+
+.stat-box {
+    width: 20;
+    height: 6;
+    border: solid $accent;
+    content-align: center middle;
+    margin: 1;
+    background: $surface-lighten-1;
+}
+
+/* Attack Panel */
+#attack-panel {
+    height: 100%;
+}
+
+#attack-log {
+    height: 1fr;
+    border: solid $secondary;
+    background: $surface;
+    margin-top: 1;
+}
+
+#target-input {
+    margin-bottom: 1;
+}
+
+#attack-select {
+    margin-bottom: 1;
+}
+
+/* Results & Catalog */
+DataTable {
+    height: 1fr;
+    border: solid $secondary;
+}
+
+/* Reports */
+#report-log {
+    height: 1fr;
+    border: solid $secondary;
+    margin-top: 1;
+}
+
+.success-text {
+    color: $success;
+}
